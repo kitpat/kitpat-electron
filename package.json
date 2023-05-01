@@ -1,8 +1,10 @@
 {
-  "description": "A foundation for scalable desktop apps",
+  "description": "An Electron im application written with Typescript",
   "keywords": [
     "electron",
-    "boilerplate",
+    "kitpat",
+    "websocket",
+    "protobuf",
     "react",
     "typescript",
     "ts",
@@ -11,25 +13,30 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/kitpat/kitpat-electron#readme",
   "bugs": {
-    "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
+    "url": "https://github.com/kitpat/kitpat-electron/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git+https://github.com/kitpat/kitpat-electron.git"
   },
   "license": "MIT",
   "author": {
-    "name": "Electron React Boilerplate Maintainers",
-    "email": "electronreactboilerplate@gmail.com",
-    "url": "https://electron-react-boilerplate.js.org"
+    "name": "kitpat",
+    "email": "kitpat.im@gmail.com",
+    "url": "https://github.com/kitpat"
   },
   "contributors": [
     {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
+      "name": "arctan95",
+      "email": "jaeqentan@gmail.com",
+      "url": "https://github.com/arctan95"
+    },
+    {
+      "name": "Caocs",
+      "email": "1327455493@qq.com",
+      "url": "https://github.com/Caocs"
     }
   ],
   "main": "./src/main/main.ts",
@@ -170,8 +177,8 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "kitpat",
+    "appId": "com.classpark.im.kitpat",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -229,12 +236,12 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "kitpat-electron",
+      "repo": "kitpat-electron"
     }
   },
   "collective": {
-    "url": "https://opencollective.com/electron-react-boilerplate-594"
+    "url": "https://github.com/classpark"
   },
   "devEngines": {
     "node": ">=14.x",
