@@ -24,3 +24,12 @@ To package apps for the local platform:
 ```bash
 npm run package
 ```
+
+## Protobuf
+
+```bash
+npm install ts-proto
+protoc --plugin=./node_modules/.bin/protoc-gen-ts_proto --ts_proto_out=. \
+--ts_proto_opt=esModuleInterop=true \
+src/proto/msg.proto
+```
