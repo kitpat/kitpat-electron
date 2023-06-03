@@ -81,7 +81,9 @@ const createWindow = async () => {
     },
   });
 
-  mainWindow.loadURL(resolveHtmlPath('index.html'));
+  const path_1 = resolveHtmlPath('index.html');
+  console.log("path_1", path_1);
+  mainWindow.loadURL(path_1);
 
   mainWindow.on('ready-to-show', () => {
     if (!mainWindow) {
